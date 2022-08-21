@@ -43,6 +43,7 @@
     ```
     $ ln -s ~/.dotfiles/.zshrc ~/.zshrc
     $ ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
+    $ ln -s ~/.dotfiles/.oh-my-zsh ~/.oh-my-zsh
     ```
 5. Install Homebrew and Homebrew packages
     ```
