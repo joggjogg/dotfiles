@@ -39,14 +39,18 @@
     ```
     $ git clone git@github.com:joggjogg/dotfiles.git ~/.dotfiles
     ```
-4. Create symlinks to Home directory
+4. Create symlinks to Home directory.
     ```
     $ ln -s ~/.dotfiles/.zshrc ~/.zshrc
     $ ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
     $ ln -s ~/.dotfiles/.oh-my-zsh ~/.oh-my-zsh
     ```
-5. Install Homebrew and Homebrew packages
+5. Install Homebrew and Homebrew packages.
     ```
     $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     $ brew bundle --file ~/.dotfiles/Brewfile
+    ```
+6. Run the Powerline10K wizard.
+    ```
+    $ .p10k.zsh
     ```
