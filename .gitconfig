@@ -1,0 +1,12 @@
+[commit]
+	gpgsign = true
+[user]
+	email = 45901428+joggjogg@users.noreply.github.com
+	name = Jochem Dobber
+[push]
+	default = current
+[init]
+	defaultBranch = main
+[pull]
+	default = current
+	rebase = false
