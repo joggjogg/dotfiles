@@ -41,8 +41,8 @@
     ```
 4. Create symlinks to Home directory
     ```
-    ln -s ~/.dotfiles/.zshrc ~/.zshrc
-    ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
+    $ ln -s ~/.dotfiles/.zshrc ~/.zshrc
+    $ ln -s ~/.dotfiles/.gitconfig ~/.gitconfig
     ```
 5. Install Homebrew and Homebrew packages
     ```
